@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_qwkgIM3aEe2YUo1HWZ-sNA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_qwlHMM3aEe2YUo1HWZ-sNA" comment="" name="mssql_conn_Port" prompt="mssql_conn_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_qwlHMc3aEe2YUo1HWZ-sNA" comment="" name="mssql_conn_Server" prompt="mssql_conn_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_qwlHMs3aEe2YUo1HWZ-sNA" comment="" name="mssql_conn_Database" prompt="mssql_conn_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="TrackBooking"/>
+  <contextParameter xmi:id="_qwlHM83aEe2YUo1HWZ-sNA" comment="" name="mssql_conn_Password" prompt="mssql_conn_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:GyKeTCxf8U+GpJE+GAEyhFtfsGoSguRbeoe0TFVbJttJJupIX5U="/>
+  <contextParameter xmi:id="_qwlHNM3aEe2YUo1HWZ-sNA" comment="" name="mssql_conn_Login" prompt="mssql_conn_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="TalendLogin"/>
+  <contextParameter xmi:id="_qwlHNc3aEe2YUo1HWZ-sNA" comment="" name="mssql_conn_Schema" prompt="mssql_conn_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_qwlHNs3aEe2YUo1HWZ-sNA" comment="" name="mssql_conn_AdditionalParams" prompt="mssql_conn_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+</talendfile:ContextType>

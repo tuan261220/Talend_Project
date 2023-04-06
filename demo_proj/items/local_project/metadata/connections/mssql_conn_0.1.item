@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_QL2oIM3WEe2YUo1HWZ-sNA" name="mssql_conn" id="_lmidgM3VEe2YUo1HWZ-sNA" label="mssql_conn" dataPackage="_q7FuEM3aEe2YUo1HWZ-sNA" ContextMode="true" ContextId="_qwYS4M3aEe2YUo1HWZ-sNA" contextName="Default" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/TrackBooking;" dbVersionString="JTDS" Port="context.mssql_conn_Port" Username="context.mssql_conn_Login" Password="context.mssql_conn_Password" ServerName="context.mssql_conn_Server" DatasourceName="" FileFieldName="" SID="context.mssql_conn_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="context.mssql_conn_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.mssql_conn_Schema">
+    <taggedValue xmi:id="_QL2oIc3WEe2YUo1HWZ-sNA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_QMUiMM3WEe2YUo1HWZ-sNA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_QMaBwM3WEe2YUo1HWZ-sNA" tag="Status" value=""/>
+    <taggedValue xmi:id="_QMaBwc3WEe2YUo1HWZ-sNA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_QMaBws3WEe2YUo1HWZ-sNA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_QMaBw83WEe2YUo1HWZ-sNA" tag="Description" value=""/>
+    <taggedValue xmi:id="_QMaBxM3WEe2YUo1HWZ-sNA" tag="Author" value=""/>
+    <taggedValue xmi:id="_QMaBxc3WEe2YUo1HWZ-sNA" tag="otherParameter"/>
+    <taggedValue xmi:id="_o3CysM3aEe2YUo1HWZ-sNA" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_o3Cysc3aEe2YUo1HWZ-sNA" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_o3Cyss3aEe2YUo1HWZ-sNA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_QL2oIs3WEe2YUo1HWZ-sNA" key="CONN_PARA_KEY_USERNAME" value="context.mssql_conn_Login"/>
+    <parameters xmi:id="_TvtJYM3WEe2YUo1HWZ-sNA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_q7FuEM3aEe2YUo1HWZ-sNA" name="TrackBooking" dataManager="_QL2oIM3WEe2YUo1HWZ-sNA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuEc3aEe2YUo1HWZ-sNA" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuEs3aEe2YUo1HWZ-sNA" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuE83aEe2YUo1HWZ-sNA" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuFM3aEe2YUo1HWZ-sNA" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuFc3aEe2YUo1HWZ-sNA" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuFs3aEe2YUo1HWZ-sNA" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuF83aEe2YUo1HWZ-sNA" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuGM3aEe2YUo1HWZ-sNA" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuGc3aEe2YUo1HWZ-sNA" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuGs3aEe2YUo1HWZ-sNA" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuG83aEe2YUo1HWZ-sNA" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuHM3aEe2YUo1HWZ-sNA" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuHc3aEe2YUo1HWZ-sNA" name="LDAP\pqtuan1"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_q7FuHs3aEe2YUo1HWZ-sNA" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
