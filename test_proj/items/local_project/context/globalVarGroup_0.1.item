@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_qw7BQM3hEe2YUo1HWZ-sNA" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_8aFQUM3hEe2YUo1HWZ-sNA" comment="" name="backup_container" prompt="backup_container?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="D:/Talend/backup/"/>
-</talendfile:ContextType>
